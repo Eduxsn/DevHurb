@@ -27,10 +27,35 @@
 
 .lista-menu > a {
     text-decoration: none;
+    margin: 0px 5px;
+    color: red;
 }
 
 .contact-options {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.site-country {
+    display: flex;
+    margin: 0px 15px;
+    width: 0px auto;
+}
+
+.site-country > img {
+    width: 20px;
+}
+
+.contact-options > button {
+    border: 1px solid white;
+    padding: 8px 16px;
+    background-color: blue;
+    border-radius: 5px;
+    color: red;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
 }
