@@ -1,0 +1,36 @@
+.body {
+    margin: 0;
+    width: 100vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  0vw 10vw;
+    /* width: 80%; */
+}
+
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo-menu > img {
+    width: 100px;
+}
+
+.lista-menu {
+    margin: 0px 30px;
+}
+
+.lista-menu > a {
+    text-decoration: none;
+}
+
+.contact-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
